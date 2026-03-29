@@ -1,8 +1,7 @@
-export default function Services() {
+export default function ServicesPage() {
   return (
-    <main style={{ padding: "2rem", textAlign: "center" }}>
+    <main>
       <h1>Services</h1>
-      <p>Our services are coming soon.</p>
     </main>
   );
 }
