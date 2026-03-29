@@ -1,7 +1,3 @@
-export default function ServicesPage() {
-  return (
-    <main>
-      <h1>Services</h1>
-    </main>
-  );
+export default function Page() {
+  return <div>Services</div>;
 }
