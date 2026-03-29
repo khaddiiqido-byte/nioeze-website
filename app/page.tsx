@@ -1,23 +1,22 @@
 export default function Home() {
   return (
-    <main style={{ 
-      display: 'flex', 
-      minHeight: '100vh', 
-      flexDirection: 'column', 
-      alignItems: 'center', 
-      justifyContent: 'center', 
-      padding: '2rem',
-      textAlign: 'center'
+    <main style={{
+      display: "flex",
+      height: "100vh",
+      alignItems: "center",
+      justifyContent: "center",
+      flexDirection: "column",
+      fontFamily: "sans-serif",
+      background: "#0a0a0a",
+      color: "#ffffff"
     }}>
-      <div>
-        <h1 style={{ fontSize: '2.5rem', fontWeight: 'bold', marginBottom: '1rem' }}>
-          Welcome to NIOEZE
-        </h1>
-        <p style={{ fontSize: '1.25rem', color: '#666' }}>
-          Human-centered design, AI, education, branding, and digital solutions 
-          built with clarity and long-term thinking
-        </p>
-      </div>
+      <h1 style={{ fontSize: "2.5rem", marginBottom: "1rem" }}>
+        NIOEZE
+      </h1>
+
+      <p style={{ maxWidth: "500px", textAlign: "center", opacity: 0.7 }}>
+        Human-centered design, AI, education, branding, and digital systems built with clarity and long-term thinking.
+      </p>
     </main>
   );
 }
